@@ -1,20 +1,24 @@
-/bin/
-/target/
+# Maven build files
+target
 *.log
-/tests/
-.checkstyle
+maven-eclipse.xml
+build.properties
+site-content
+*~
+
+# IntelliJ IDEA files
+.idea
+.iws
+*.iml
+*.ipr
+
+# Eclipse files
+.settings
 .classpath
 .project
-/.settings/
-/nbproject/
-.idea
-*.iml
-/.mvn/
+.externalToolBuilders
+.checkstyle
 
-/build/
-/lib/
-/test-output/
-src/tz-data/
-*TempTest*
-/src/main/resources/org/joda/time/tz/data/
-*.DS_Store
+# jenv's version file
+.java-version
+/.DS_Store
