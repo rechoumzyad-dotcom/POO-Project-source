@@ -38,7 +38,7 @@
  |                                                                      |
  +======================================================================+
 --->
-Contributing to Apache Commons Lang
+Contributing to Apache Commons IO
 ======================
 
 Have you found a bug or have an idea for a cool new feature? Contributing code is a great way to give something back to the open-source community.
@@ -49,7 +49,7 @@ Getting Started
 
 + Make sure you have a [JIRA account](https://issues.apache.org/jira/).
 + Make sure you have a [GitHub account](https://github.com/signup/free). This is not essential, but makes providing patches much easier.
-+ If you're planning to implement a new feature it makes sense to discuss your changes on the [dev list](https://commons.apache.org/mail-lists.html) first. This way you can make sure you're not wasting your time on something that isn't considered to be in Apache Commons Lang's scope.
++ If you're planning to implement a new feature it makes sense to discuss your changes on the [dev list](https://commons.apache.org/mail-lists.html) first. This way you can make sure you're not wasting your time on something that isn't considered to be in Apache Commons IO's scope.
 + Submit a [Jira Ticket][jira] for your issue, assuming one does not already exist.
   + Clearly describe the issue including steps to reproduce when it is a bug.
   + Make sure you fill in the earliest version that you know has the issue.
@@ -61,11 +61,11 @@ Making Changes
 
 + Create a _topic branch_ for your isolated work.
   * Usually you should base your branch from the `master` branch.
-  * A good topic branch name can be the JIRA bug ID plus a keyword, e.g. `LANG-123-InputStream`.
+  * A good topic branch name can be the JIRA bug ID plus a keyword, e.g. `IO-123-InputStream`.
   * If you have submitted multiple JIRA issues, try to maintain separate branches and pull requests.
 + Make commits of logical units.
   * Make sure your commit messages are meaningful and in the proper format. Your commit message should contain the key of the JIRA issue.
-  * For example, `[LANG-123] Close input stream sooner`
+  * For example, `[IO-123] Close input stream sooner`
 + Respect the original code style:
   + Only use spaces for indentation; you can check for unnecessary whitespace with `git diff` before committing.
   + Create minimal diffs - disable _On Save_ actions like _Reformat Source Code_ or _Organize Imports_. If you feel the source code should be reformatted create a separate PR for this change first.
@@ -106,11 +106,11 @@ Additional Resources
 --------------------
 
 + [Contributing patches](https://commons.apache.org/patches.html)
-+ [Apache Commons Lang JIRA project page][jira]
++ [Apache Commons IO JIRA project page][jira]
 + [Contributor License Agreement][cla]
 + [General GitHub documentation](https://help.github.com/)
 + [GitHub pull request documentation](https://help.github.com/articles/creating-a-pull-request/)
 + [Apache Commons Twitter Account](https://twitter.com/ApacheCommons)
 
 [cla]:https://www.apache.org/licenses/#clas
-[jira]:https://issues.apache.org/jira/browse/LANG
+[jira]:https://issues.apache.org/jira/browse/IO
