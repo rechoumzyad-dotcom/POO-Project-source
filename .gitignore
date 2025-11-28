@@ -1,14 +1,20 @@
-/nbproject/private/
+/bin/
 /target/
-/javadoc/
-
-# Eclipse files #
-/.classpath
-/.project
-/.settings
-
-# Intellij Idea
+*.log
+/tests/
+.checkstyle
+.classpath
+.project
+/.settings/
+/nbproject/
 .idea
 *.iml
-*.ipr
-*.iws
+/.mvn/
+
+/build/
+/lib/
+/test-output/
+src/tz-data/
+*TempTest*
+/src/main/resources/org/joda/time/tz/data/
+*.DS_Store
