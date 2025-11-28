@@ -40,43 +40,36 @@
  |                                                                      |
  +======================================================================+
 --->
-Apache Commons Lang
+Apache Commons IO
 ===================
 
-[![Java CI](https://github.com/apache/commons-lang/actions/workflows/maven.yml/badge.svg)](https://github.com/apache/commons-lang/actions/workflows/maven.yml)
-[![Maven Central](https://img.shields.io/maven-central/v/org.apache.commons/commons-lang3?label=Maven%20Central)](https://search.maven.org/artifact/org.apache.commons/commons-lang3)
-[![Javadocs](https://javadoc.io/badge/org.apache.commons/commons-lang3/3.20.0.svg)](https://javadoc.io/doc/org.apache.commons/commons-lang3/3.20.0)
-[![CodeQL](https://github.com/apache/commons-lang/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/apache/commons-lang/actions/workflows/codeql-analysis.yml)
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/apache/commons-lang/badge)](https://api.securityscorecards.dev/projects/github.com/apache/commons-lang)
+[![Java CI](https://github.com/apache/commons-io/actions/workflows/maven.yml/badge.svg)](https://github.com/apache/commons-io/actions/workflows/maven.yml)
+[![Maven Central](https://img.shields.io/maven-central/v/commons-io/commons-io?label=Maven%20Central)](https://search.maven.org/artifact/commons-io/commons-io)
+[![Javadocs](https://javadoc.io/badge/commons-io/commons-io/2.21.0.svg)](https://javadoc.io/doc/commons-io/commons-io/2.21.0)
+[![CodeQL](https://github.com/apache/commons-io/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/apache/commons-io/actions/workflows/codeql-analysis.yml)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/apache/commons-io/badge)](https://api.securityscorecards.dev/projects/github.com/apache/commons-io)
 
-Apache Commons Lang, a package of Java utility classes for the
-  classes that are in java.lang's hierarchy, or are considered to be so
-  standard as to justify existence in java.lang.
-
-  The code is tested using the latest revision of the JDK for supported
-  LTS releases: 8, 11, 17, 21 and 25 currently.
-  See https://github.com/apache/commons-lang/blob/master/.github/workflows/maven.yml
-  
-  Please ensure your build environment is up-to-date and kindly report any build issues.
+The Apache Commons IO library contains utility classes, stream implementations, file filters,
+file comparators, endian transformation classes, and much more.
 
 Documentation
 -------------
 
-More information can be found on the [Apache Commons Lang homepage](https://commons.apache.org/proper/commons-lang).
-The [Javadoc](https://commons.apache.org/proper/commons-lang/apidocs) can be browsed.
-Questions related to the usage of Apache Commons Lang should be posted to the [user mailing list](https://commons.apache.org/mail-lists.html).
+More information can be found on the [Apache Commons IO homepage](https://commons.apache.org/proper/commons-io).
+The [Javadoc](https://commons.apache.org/proper/commons-io/apidocs) can be browsed.
+Questions related to the usage of Apache Commons IO should be posted to the [user mailing list](https://commons.apache.org/mail-lists.html).
 
 Getting the latest release
 --------------------------
-You can download source and binaries from our [download page](https://commons.apache.org/proper/commons-lang/download_lang.cgi).
+You can download source and binaries from our [download page](https://commons.apache.org/proper/commons-io/download_io.cgi).
 
 Alternatively, you can pull it from the central Maven repositories:
 
 ```xml
 <dependency>
-  <groupId>org.apache.commons</groupId>
-  <artifactId>commons-lang3</artifactId>
-  <version>3.20.0</version>
+  <groupId>commons-io</groupId>
+  <artifactId>commons-io</artifactId>
+  <version>2.21.0</version>
 </dependency>
 ```
 
@@ -111,13 +104,13 @@ See the `NOTICE.txt` file for required notices and attributions.
 
 Donating
 --------
-You like Apache Commons Lang? Then [donate back to the ASF](https://www.apache.org/foundation/contributing.html) to support development.
+You like Apache Commons IO? Then [donate back to the ASF](https://www.apache.org/foundation/contributing.html) to support development.
 
 Additional Resources
 --------------------
 
 + [Apache Commons Homepage](https://commons.apache.org/)
-+ [Apache Issue Tracker (JIRA)](https://issues.apache.org/jira/browse/LANG)
++ [Apache Issue Tracker (JIRA)](https://issues.apache.org/jira/browse/IO)
 + [Apache Commons Slack Channel](https://the-asf.slack.com/archives/C60NVB8AD)
 + [Apache Commons Twitter Account](https://twitter.com/ApacheCommons)
 
